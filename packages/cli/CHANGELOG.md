@@ -1,5 +1,16 @@
 # @yamada-ui/cli
 
+## 2.1.1
+
+### Patch Changes
+
+- [#6018](https://github.com/yamada-ui/yamada-ui/pull/6018) [`6ee4fdb`](https://github.com/yamada-ui/yamada-ui/commit/6ee4fdb9e1d179e76e812e964d92be5b4e2a9616) Thanks [@hirotomoyamada](https://github.com/hirotomoyamada)! - Replaced `execa` with Node.js built-in `child_process` to fix Node.js v24 compatibility.
+
+- [#6048](https://github.com/yamada-ui/yamada-ui/pull/6048) [`01723c6`](https://github.com/yamada-ui/yamada-ui/commit/01723c6ee452ee09da07e653a47687bffc741cae) Thanks [@hirotomoyamada](https://github.com/hirotomoyamada)! - Fixed the option descriptions.
+
+- Updated dependencies [[`8d54c60`](https://github.com/yamada-ui/yamada-ui/commit/8d54c60d3139db0149ed07f37d3d4cb951c7a2e7)]:
+  - @yamada-ui/utils@2.1.1
+
 ## 2.1.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @yamada-ui/utils
 
+## 2.1.1
+
+### Patch Changes
+
+- [#6086](https://github.com/yamada-ui/yamada-ui/pull/6086) [`8d54c60`](https://github.com/yamada-ui/yamada-ui/commit/8d54c60d3139db0149ed07f37d3d4cb951c7a2e7) Thanks [@hirotomoyamada](https://github.com/hirotomoyamada)! - Modified the `cx` function to return `undefined` when the return value would otherwise be an empty string. This is necessary to remove unnecessary attributes from elements.
+
 ## 2.1.0
 
 ### Minor Changes
